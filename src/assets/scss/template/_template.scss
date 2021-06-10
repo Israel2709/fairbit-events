@@ -1,0 +1,106 @@
+$green:       #a8cc70;
+$dark-gray:   #4D4D57;
+$main-color:  #840DAC;
+$darker-gray:   #302F39; 
+
+*{
+  font-size:.875rem !important;
+  hyphens:none !important;
+}
+
+.bb-green{
+  border-bottom:1px solid $green;
+}
+
+.m-0{
+  margin:0 !important;
+}
+
+.pb-0{
+  padding-bottom:0px !important
+}
+
+table.button{
+  &:hover{
+    background-color:$main-color !important;
+  }
+}
+
+table.button:hover table tr td a{
+  background-color:$main-color
+}
+
+
+.bg-{
+  &dark-gray{
+    background-color:$dark-gray;
+  }
+  &red{
+    background-color:rgb(232,29,41);
+  }
+  &gray{
+    background-color:rgb(242,242,242);
+  }
+  &main-color{
+    background-color:$main-color;
+  }
+  &darker-gray{
+    background-color:$darker-gray
+  }
+}
+
+.fs-24{
+  font-size:1.5rem !important;
+}
+
+.fs-36{
+  font-size:2.25rem !important;
+}
+
+.fs-40{
+  font-size:2.5rem !important;
+}
+
+.fs-48{
+  font-size:3rem !important;
+}
+.text-{
+  &white{
+    color:#ffffff !important;
+  }
+  &black{
+    color:#000000 !important;
+  }
+  &green{
+    color:$green;
+  }
+  &main-color{
+    color:$main-color;
+  }
+}
+
+.p-0{
+  padding:0 !important;
+}
+
+.d-inline-block{
+  display:inline-block;
+}
+
+.white-link{
+  color:white;
+  text-decoration:none;
+}
+
+.test-bg{
+  background-image:url("https://picsum.photos/200/300");
+  background-size:cover;
+}
+
+table.button table td{
+  border: none !important;
+  background:none;
+  a{
+    border: none !important;
+  }
+}
