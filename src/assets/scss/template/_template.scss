@@ -1,7 +1,15 @@
 $green:       #a8cc70;
 $dark-gray:   #4D4D57;
-$main-color:  #840DAC;
-$darker-gray:   #302F39; 
+$main-color:  #D1DB4D;
+$darker-gray:   #302F39;
+
+$sizes: (
+  "small":.875rem,
+  "regular":1rem,
+  "medium":1.25rem,
+  "large":1.5rem,
+  "extra-large":2rem
+);
 
 *{
   font-size:.875rem !important;
@@ -29,7 +37,6 @@ table.button{
 table.button:hover table tr td a{
   background-color:$main-color
 }
-
 
 .bg-{
   &dark-gray{
@@ -89,6 +96,11 @@ table.button:hover table tr td a{
 
 .white-link{
   color:white;
+  text-decoration:none;
+}
+
+.black-link{
+  color:#0a0a0a !important;
   text-decoration:none;
 }
 
